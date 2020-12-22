@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".1" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".33" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".03" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".24" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".30" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".9" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".25" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".75" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".2" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".3" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/glv97"
+        app:layout_constraintGuide_percent=".97"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/appBarView"
+        />
+
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+
+        android:padding="8dp"
+        android:layout_height="48dp"
+        android:src="@drawable/icn_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="@+id/appBarView"
+        app:layout_constraintBottom_toBottomOf="@+id/appBarView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <com.mohsin.baseapp.UI.CustomComponents.TextView_N
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo Structure App"
+        android:padding="10dp"
+        app:text_color="2"
+        app:layout_constraintTop_toTopOf="@+id/appBarView"
+        app:layout_constraintBottom_toBottomOf="@+id/appBarView"
+        app:layout_constraintLeft_toRightOf="@+id/btnBack"
+        android:layout_marginLeft="15dp"
+        />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imgLogo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="140dp"-->
+
+<!--        android:adjustViewBounds="true"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        android:src="@drawable/img_logo"-->
+
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_marginTop="50dp"-->
+
+<!--        />-->
+
+
+
+
+
+
+
+    <FrameLayout
+        android:id="@+id/rlFragmentHandler"
+
+        app:layout_constraintTop_toBottomOf="@id/appBarView"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

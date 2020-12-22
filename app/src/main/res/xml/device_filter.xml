@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <usb-device
+        product-id="7638"
+        vendor-id="2009"></usb-device>
+    <usb-device
+        product-id="30264"
+        vendor-id="8201" />
+
+    <usb-device
+        product-id="7638"
+        vendor-id="2109"></usb-device>
+    <usb-device
+        product-id="30264"
+        vendor-id="8457" />
+
+    <usb-device
+        product-id="7368"
+        vendor-id="2109"></usb-device>
+    <usb-device
+        product-id="29544"
+        vendor-id="8457" />
+
+    <usb-device
+        product-id="9005"
+        vendor-id="0453"></usb-device>
+    <usb-device
+        product-id="36869"
+        vendor-id="1107" />
+
+    <usb-device
+        product-id="028F"
+        vendor-id="28E9"></usb-device>
+    <usb-device
+        product-id="655"
+        vendor-id="10473" />
+</resources>

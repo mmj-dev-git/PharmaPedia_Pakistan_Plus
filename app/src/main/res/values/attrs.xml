@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EditText_row">
+        <attr name="image" format="reference" />
+        <attr name="hint" format="string" />
+        <attr name="text" format="string" />
+        <attr name="input_type" format="string" />
+        <attr name="required" format="boolean" />
+        <attr name="enable" format="boolean" />
+        <attr name="itemsArr" format="string" />
+        <attr name="itemsMapArr" format="string" />
+        <attr name="isPopUp" format="boolean" />
+        <attr name="hide_underline" format="boolean" />
+        <attr name="maxLen" format="integer" />
+        <attr name="right_line" format="boolean" />
+        <attr name="isUploadButton" format="boolean" />
+        <attr name="setOptional" format="boolean" />
+        <attr name="isButtonEnabled" format="boolean" />
+        <attr name="isSwitchButton" format="boolean" />
+        <attr name="greyOut" format="boolean" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="TextView">
+        <attr name="is_spannable" format="boolean" />
+        <attr name="text_color" format="integer" />
+    </declare-styleable>
+
+
+</resources>
