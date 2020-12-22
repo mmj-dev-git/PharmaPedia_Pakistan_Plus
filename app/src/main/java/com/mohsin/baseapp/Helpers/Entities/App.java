@@ -2,6 +2,7 @@ package com.mohsin.baseapp.Helpers.Entities;
 
 import android.app.Application;
 
+import com.mohsin.baseapp.R;
 import com.sromku.simple.storage.SimpleStorage;
 import com.sromku.simple.storage.Storage;
 
@@ -27,16 +28,16 @@ public class App extends Application {
             else {
                 storage = SimpleStorage.getInternalStorage(getApplicationContext());
             }
-
-            if(!storage.isDirectoryExists("Meezan")){
-                storage.createDirectory("Meezan",false);
+//************************ for creating logs *********************************
+            if(!storage.isDirectoryExists(String.valueOf(R.string.app_name))){
+                storage.createDirectory(String.valueOf(R.string.app_name),false);
             }
 
             FileName = Utils.getCurrentDateTime(4);
-            if(!storage.isFileExist("Meezan", FileName+".txt")){
-                storage.createFile("Meezan", FileName+".txt", "");
+            if(!storage.isFileExist(String.valueOf(R.string.app_name), FileName+".txt")){
+                storage.createFile(String.valueOf(R.string.app_name), FileName+".txt", "");
             }
-
+//**********************************************************************************
         } catch (Exception e) {
             e.printStackTrace();
         }

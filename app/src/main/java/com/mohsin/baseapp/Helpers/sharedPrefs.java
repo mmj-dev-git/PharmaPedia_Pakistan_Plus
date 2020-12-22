@@ -5,11 +5,12 @@ import android.content.SharedPreferences;
 
 
 import com.mohsin.baseapp.Helpers.Entities.App;
+import com.mohsin.baseapp.R;
 
 public class sharedPrefs {
 
     private static SharedPreferences Prefs(Context context) {
-        return context.getSharedPreferences("MeezanSmart", context.MODE_PRIVATE);
+        return context.getSharedPreferences(String.valueOf(R.string.app_name), context.MODE_PRIVATE);
     }
 
     public static SharedPreferences getPref() {
