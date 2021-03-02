@@ -143,45 +143,110 @@
         android:layout_marginStart="15dp"
         />
 
-    <com.mohsin.baseapp.UI.CustomComponents.TextView_N
+    <com.mohsin.pharmapedia.UI.CustomComponents.TextView_N
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Demo Structure App"
-        android:padding="10dp"
-        app:text_color="2"
+        android:padding="8dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
         app:layout_constraintTop_toTopOf="@+id/appBarView"
+
         app:layout_constraintBottom_toBottomOf="@+id/appBarView"
         app:layout_constraintLeft_toRightOf="@+id/btnBack"
         android:layout_marginLeft="15dp"
         />
 
-    <!--    <ImageView-->
-    <!--        android:id="@+id/imgLogo"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="140dp"-->
-
-    <!--        android:adjustViewBounds="true"-->
-    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--        app:layout_constraintRight_toRightOf="parent"-->
-    <!--        android:src="@drawable/img_logo"-->
-
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        android:layout_marginTop="50dp"-->
-
-    <!--        />-->
-
-
-
     <FrameLayout
         android:id="@+id/rlFragmentHandler"
 
         app:layout_constraintTop_toBottomOf="@id/appBarView"
-
-
+        app:layout_constraintBottom_toTopOf="@+id/v1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="0dp" >
     </FrameLayout>
 
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation_view_linear"
+        android:background="@drawable/shadow"/>
+
+
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/bottom_navigation_view_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGreyplus"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_Drugs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/colorWhite"
+            app:bt_colorInactive="@color/TVcolorGrey"
+            app:bt_icon="@drawable/ic_home"
+            app:bt_shape="@drawable/navigation_item_background"
+            app:bt_title="Drugs"
+            app:bt_padding="12dp"
+            app:bt_titlePadding="12dp" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_Companies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/colorWhite"
+            app:bt_colorInactive="@color/TVcolorGrey"
+            app:bt_icon="@drawable/ic_home"
+            app:bt_shape="@drawable/navigation_item_background"
+            app:bt_title="Companies"
+            app:bt_padding="12dp"
+            app:bt_titlePadding="6dp" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@color/colorWhite"
+            app:bt_colorInactive="@color/TVcolorGrey"
+            app:bt_icon="@drawable/ic_home"
+            app:bt_shape="@drawable/navigation_item_background"
+            app:bt_title="Home"
+            app:bt_padding="12dp"
+            app:bt_titlePadding="12dp" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_Interactions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/colorWhite"
+            app:bt_colorInactive="@color/TVcolorGrey"
+            app:bt_icon="@drawable/ic_home"
+            app:bt_shape="@drawable/navigation_item_background"
+            app:bt_title="Interactions"
+            app:bt_padding="12dp"
+            app:bt_titlePadding="12dp" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/l_item_Settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/colorWhite"
+            app:bt_colorInactive="@color/TVcolorGrey"
+            app:bt_icon="@drawable/ic_home"
+            app:bt_shape="@drawable/navigation_item_background"
+            app:bt_title="Settings"
+            app:bt_padding="12dp"
+            app:bt_titlePadding="12dp" />
+
+        <!-- Add more child items here - max upto 5 -->
+
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
 
 
 

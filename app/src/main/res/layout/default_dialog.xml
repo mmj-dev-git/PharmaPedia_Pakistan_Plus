@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tvText"
         android:textAlignment="center"
-        android:textColor="@color/colorPruple"
+        android:textColor="@color/purple"
         />
 
 

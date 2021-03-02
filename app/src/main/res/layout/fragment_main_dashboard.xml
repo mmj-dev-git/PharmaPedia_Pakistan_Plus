@@ -140,7 +140,7 @@
 
 
 
-        <com.mohsin.baseapp.UI.CustomComponents.TextView_N
+        <com.mohsin.pharmapedia.UI.CustomComponents.TextView_N
             android:layout_width="match_parent"
             android:layout_marginTop="5dp"
             app:layout_constraintTop_toTopOf="parent"

@@ -1,12 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#70358D</color>
-    <color name="colorPrimaryDark">#70358D</color>
-    <color name="colorAccent">#f2c63b</color>
-    <color name="colorPruple">#70358D</color>
-    <color name="colorGreen">#FF38850A</color>
-    <color name="colorRed">#FFB50831</color>
+    <color name="colorPrimary">#2e5399</color>
+    <color name="colorPrimaryDark">#2e5399</color>
+    <color name="colorAccent">#ea1862</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="colorblack">#444444</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorBlack">#333333</color>
+
+    <color name="colorLightGreyplus">#ececec</color>
+    <color name="colorSepGrey">#e3dadb</color>
+    <color name="colorTabLayout">#FFEBEE</color>
+    <color name="colorProgressDialog">#333333</color>
+    <color name="colorProgressText">#333333</color>
+    <color name="calender_green">#228BC34A</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="light_blue">#80b3ff</color>
+    <color name="purple">#8e44ad</color>
+    <color name="orange">#e67e22</color>
+    <color name="darkBlue">#2c3e50</color>
+    <color name="blue">#81bad8</color>
+    <color name="green">#00a9a6</color>
+    <color name="splash">#366471</color>
+    <color name="graphColor">#fff</color>
+
+    <color name="BlueHexCode">#2e5399</color>
+    <color name="CyanHexCode">#38c2df</color>
+
+    <!--<color name="BGGrey">#f9f9f9</color>-->
+    <color name="BGGrey">#EFF0F1</color>
+    <!--fafafa-->
+    <color name="ETBorder">#aaaaaa</color>
+    <color name="HRTVcolorGrey">#AEAEAE</color>
+    <color name="MMPorange">#ff7929</color>
+    <color name="MMPSkyblue">#00b2d5</color>
+    <color name="MMPpurple">#bc8afa</color>
+    <color name="MMPGrey">#707070</color>
+    <color name="MMPGreen">#00cdac</color>
+
+    <color name="weekdaysColor">#808bcbd9</color>
+    <color name="bottomnavigation_default">#555555</color>
+
+    <color name="appblack_color">#333333</color>
+    <color name="TVcolorGrey">#AEAEAE</color>
+
+    <color name="colorBackground">#00ffffff</color>
+    <color name="slidingup_colorBackground">#ffffff</color>
+    <color name="colorNavAccentSelected">#ea1862</color>
+    <color name="colorNavAccentUnselected">#333333</color>
+    <color name="otherHRGrey">#EFF0F1</color>
+
+    <color name="text_shadow">#7F000000</color>
+
+
+    <color name="colorMagenta">#ea1862</color>
+    <color name="colorMagentaPressed">#80EA1862</color>
+
+    <color name="colorRed">#ff0000</color>
+
+
+    <color name="footer">#00000000</color>
+
+    <color name="colorBlue">#2e5399</color>
+    <color name="colorCyan">#38c2df</color>
+    <color name="colorCyanPressed">#8038c2df</color>
+    <color name="colorDarkGrey">#555555</color>
+    <color name="colorGrey">#AEAEAE</color>
+    <!--    <color name="colorLightGrey">#eaeaea</color>-->
+    <color name="colorLightGrey">#eaeaea</color>
+
+    <color name="HROpacityColor">#ffffff</color>
+
+
+
+    <color name="colorEtBackground">#FFFFFF</color>
+    <color name="textColorEt">#333333</color>
+    <color name="hintColorEt">#808080</color>
+
+
+    <color name="OnboardingItem_background">#FFFFFF</color>
+
+
+    <color name="reports_checkbox_uncheck">#ffffff</color>
+    <color name="reports_checkbox_check">#333333</color>
+    <color name="reports_checkbox_border">#333333</color>
+
+
+
+
+    <color name="RangeBarPaintSelected">#eaeaea</color>
+    <color name="RangeBarPaintNotSelected">#eaeaea</color>
+    <color name="RangeBarPaintFillIn">#333333</color>
+
+
 
 </resources>

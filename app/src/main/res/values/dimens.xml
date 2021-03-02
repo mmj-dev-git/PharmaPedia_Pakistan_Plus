@@ -1,3 +1,32 @@
 <resources>
+    <dimen name="HR_TextView_Normal">19sp</dimen>
+    <dimen name="HR_TextView_Small">17sp</dimen>
 
+
+    <dimen name="DI_TextView_Normal">19sp</dimen>
+    <dimen name="DI_TextView_Small">17sp</dimen>
+
+    <dimen name="Reports_TextView_Normal">19sp</dimen>
+    <dimen name="Reports_TextView_Small">17sp</dimen>
+
+
+    <dimen name="Settings_TextView_Normal">19sp</dimen>
+    <dimen name="Settings_TextView_Small">17sp</dimen>
+
+    <dimen name="Dashboard_TextView_Normal">22sp</dimen>
+    <dimen name="Dashboard_TextView_Small">16sp</dimen>
+
+    <dimen name="Dialogue_TextView_Title">19sp</dimen>
+    <dimen name="Dialogue_TextView_Desc">17sp</dimen>
+
+    <dimen name="TileButton_Text_size">22sp</dimen>
+
+    <dimen name="Text_Sieze_H1">18sp</dimen>
+    <dimen name="Text_Sieze_H2">16sp</dimen>
+
+
+    <!--    <dimen name="EditText_Height_normal">40dp</dimen>-->
+    <dimen name="EditText_Height_small">36dp</dimen>
+    <dimen name="EditText_Height_Internal">32dp</dimen>
+    <dimen name="EditText_Height_crud">50dp</dimen>
 </resources>

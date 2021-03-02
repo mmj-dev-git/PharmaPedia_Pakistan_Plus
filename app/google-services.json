@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "840027449027",
-    "firebase_url": "https://meezan-fe8f2.firebaseio.com",
-    "project_id": "meezan-fe8f2",
-    "storage_bucket": "meezan-fe8f2.appspot.com"
+    "project_number": "823393390255",
+    "project_id": "pharmapediaplus",
+    "storage_bucket": "pharmapediaplus.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:840027449027:android:efaac9bceabde287852476",
+        "mobilesdk_app_id": "1:823393390255:android:3355c550b7dff7eb030e5a",
         "android_client_info": {
-          "package_name": "com.mohsin.baseapp"
+          "package_name": "com.mohsin.pharmapedia"
         }
       },
       "oauth_client": [
         {
-          "client_id": "840027449027-pmcjdq3bb1gci35neiefcm5usb3jg522.apps.googleusercontent.com",
+          "client_id": "823393390255-rcc1act1jchmj7dle316kp773723hmfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mohsin.pharmapedia",
+            "certificate_hash": "83f0bc04b9931c165f9942766b4bac660379fe50"
+          }
+        },
+        {
+          "client_id": "823393390255-o6mas6fvm342uq78hhfh33qnjmgigqg9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDTfpGZvHg_PZi0bGwx7hWdQR7DpUhUH8w"
+          "current_key": "AIzaSyC5RsR8o_JKQB5hAJrjeQXZlagxABInAvI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "840027449027-pmcjdq3bb1gci35neiefcm5usb3jg522.apps.googleusercontent.com",
+              "client_id": "823393390255-o6mas6fvm342uq78hhfh33qnjmgigqg9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

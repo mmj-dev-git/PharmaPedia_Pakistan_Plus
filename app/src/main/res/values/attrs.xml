@@ -28,5 +28,13 @@
         <attr name="text_color" format="integer" />
     </declare-styleable>
 
+    <declare-styleable name="Button">
+        <attr name="background_color" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="EditText">
+        <attr name="background_radius" format="boolean" />
+    </declare-styleable>
+
 
 </resources>

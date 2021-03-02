@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fragment_structureApp.iml" filepath="$PROJECT_DIR$/.idea/modules/fragment_structureApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/fragment_structureApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/fragment_structureApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PharmaPedia_Pakistan_Plus.iml" filepath="$PROJECT_DIR$/.idea/modules/PharmaPedia_Pakistan_Plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PharmaPedia_Pakistan_Plus.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PharmaPedia_Pakistan_Plus.app.iml" />
     </modules>
   </component>
 </project>

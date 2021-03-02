@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mohsin.baseapp">
+    package="com.mohsin.pharmapedia">
 
 
     <uses-permission android:name="android.permission.CAMERA"> </uses-permission>
@@ -40,7 +40,7 @@
 
 
     <application
-        android:name="com.mohsin.baseapp.Helpers.Entities.App"
+        android:name="com.mohsin.pharmapedia.Helpers.Entities.App"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:largeHeap="true"
@@ -50,13 +50,13 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-        <activity android:name="com.mohsin.baseapp.UI.Activites.JoinNConnect"
+        <activity android:name="com.mohsin.pharmapedia.UI.Activites.JoinNConnect"
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
             >
 
         </activity>
 
-        <activity android:name="com.mohsin.baseapp.UI.Activites.Main"
+        <activity android:name="com.mohsin.pharmapedia.UI.Activites.Main"
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
             <meta-data
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
@@ -64,7 +64,7 @@
 
         </activity>
         <activity
-            android:name="com.mohsin.baseapp.UI.Activites.Splash"
+            android:name="com.mohsin.pharmapedia.UI.Activites.Splash"
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden"
           >
             <intent-filter>
