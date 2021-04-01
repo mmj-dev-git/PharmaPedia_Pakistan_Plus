@@ -139,7 +139,7 @@ public class Drugs extends Base implements IBase , View.OnClickListener, RadioGr
         if (type.equals(Constants.apiCallDrugs)) {
             _apiCallDrugsResponse = (apiCallDrugsResponse) obj;
 
-                getTotalNumberOfPages(_apiCallDrugsResponse.getTotalRecords());
+                getTotalNumberOfPages(2323232);
                 swipeRefreshLayout.setRefreshing(false);
 
                 try {
@@ -150,6 +150,7 @@ public class Drugs extends Base implements IBase , View.OnClickListener, RadioGr
                 {
 
                 }
+
 
 
             drugList.addAll(_apiCallDrugsResponse.getResponse());
@@ -187,7 +188,8 @@ public class Drugs extends Base implements IBase , View.OnClickListener, RadioGr
 
         _apiCallDrugsResponse = (apiCallDrugsResponse) obj;
 
-        getTotalNumberOfPages(_apiCallDrugsResponse.getTotalRecords());
+//        getTotalNumberOfPages(_apiCallDrugsResponse.getTotalRecords());
+        getTotalNumberOfPages(26666);
 
         _apiCallDrugsResponse.getResponse();
         drugList = new ArrayList<>();

@@ -27,7 +27,7 @@ public interface apiDefinition {
 //            (@Body apiCallResetPasswordRequest _req);
 
 
-    @POST("api/BrandDrug")
+    @POST("api/Drug")
     Call<ResponseBody> drug
             (@Body apiCallDrugsRequest _req);
 

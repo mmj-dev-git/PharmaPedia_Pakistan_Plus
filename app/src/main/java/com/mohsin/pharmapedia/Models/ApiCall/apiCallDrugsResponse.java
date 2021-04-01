@@ -12,9 +12,6 @@ public class apiCallDrugsResponse {
     @SerializedName("error")
     @Expose
     private Object error;
-    @SerializedName("totalRecords")
-    @Expose
-    private Integer totalRecords;
     @SerializedName("response")
     @Expose
     private List<apiCallDrugsResponseDetail> response = null;
@@ -42,13 +39,4 @@ public class apiCallDrugsResponse {
     public void setResponse(List<apiCallDrugsResponseDetail> response) {
         this.response = response;
     }
-
-    public Integer getTotalRecords() {
-        return totalRecords;
-    }
-
-    public void setTotalRecords(Integer totalRecords) {
-        this.totalRecords = totalRecords;
-    }
-
 }

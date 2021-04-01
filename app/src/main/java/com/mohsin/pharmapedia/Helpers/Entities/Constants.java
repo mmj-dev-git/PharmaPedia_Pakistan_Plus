@@ -2,7 +2,7 @@ package com.mohsin.pharmapedia.Helpers.Entities;
 
 public class Constants {
 
-    public static String conditionAutoFillUrl = "https://clinicaltables.nlm.nih.gov/";
+ //   public static String conditionAutoFillUrl = "https://clinicaltables.nlm.nih.gov/";
 
     enum Environment {
         Testing,
@@ -29,8 +29,8 @@ public class Constants {
     public static String apiError = "apiError";
     public static String apiCallDrugs = "apiCallDrugs";
 
-    public static String Brand = "Brand";
-    public static String Generic = "Generic";
+    public static String Brand = "brand";
+    public static String Generic = "drug";
 
 
 
@@ -39,7 +39,8 @@ public class Constants {
 
     public static String getMainUrl() {
         if (env == Environment.Dev) {
-            return "http://10.0.2.2:8000/";   // IPATH
+
+            return "http://192.168.1.100:8000/";   // IPATH
           //  return  "http://172.30.109.33:8080/MBLMiddleware-0.1-SNAPSHOT/api/";   // Meezan SIT
           //  return "http://192.168.111.101:8080/api/";
 

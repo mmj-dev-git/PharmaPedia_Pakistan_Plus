@@ -81,7 +81,7 @@ public class drugActivityAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
             case TYPE_HEADER:
                 ViewHolderHeader _viewHolderHeader = (ViewHolderHeader) holder;
 
-                _viewHolderHeader.tvDrugName.setText(_apiCallDrugsResponseDetail.getNAME());
+                _viewHolderHeader.tvDrugName.setText(_apiCallDrugsResponseDetail.getBname());
                 break;
 
             case TYPE_LOADING:

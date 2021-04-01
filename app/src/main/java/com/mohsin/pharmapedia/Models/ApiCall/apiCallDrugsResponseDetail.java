@@ -4,37 +4,15 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class apiCallDrugsResponseDetail {
-    @SerializedName("NAME")
-    @Expose
-    private String nAME;
     @SerializedName("BID")
     @Expose
-    private Integer bID;
-
-
-    private String type = "Data";
-
-    public apiCallDrugsResponseDetail(String type) {
-        this.type = type;
-    }
-
-
-    public String getNAME() {
-        return nAME;
-    }
-
-    public void setNAME(String nAME) {
-        this.nAME = nAME;
-    }
-
-    public Integer getBID() {
-        return bID;
-    }
-
-    public void setBID(Integer bID) {
-        this.bID = bID;
-    }
-
+    private Integer bid;
+    @SerializedName("BNAME")
+    @Expose
+    private String bname;
+    @SerializedName("CID")
+    @Expose
+    private Integer cid;
 
     public String getType() {
         return type;
@@ -43,4 +21,36 @@ public class apiCallDrugsResponseDetail {
     public void setType(String type) {
         this.type = type;
     }
+
+    private String type = "Data";
+
+    public apiCallDrugsResponseDetail(String type) {
+        this.type = type;
+    }
+
+
+    public Integer getBid() {
+        return bid;
+    }
+
+    public void setBid(Integer bid) {
+        this.bid = bid;
+    }
+
+    public String getBname() {
+        return bname;
+    }
+
+    public void setBname(String bname) {
+        this.bname = bname;
+    }
+
+    public Integer getCid() {
+        return cid;
+    }
+
+    public void setCid(Integer cid) {
+        this.cid = cid;
+    }
+
 }
